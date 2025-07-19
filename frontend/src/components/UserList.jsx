@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { FaUserCircle, FaTrophy, FaPlus } from "react-icons/fa";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://leaderboard-backend-pc2b.onrender.com";
 
 const UserList = ({ users, onSelect }) => {
   const [userName, setUserName] = useState("");
